@@ -1,0 +1,126 @@
+.main{
+  width: 100vw;
+  background-color: rgb(240, 239, 239);
+  padding-bottom: 50px;
+}
+.head{
+  text-align: center;
+  font-size: 40px;
+  padding-top: 10px;
+}
+.side1{
+  font-size: 25px;
+  padding-left: 100px;
+}
+.products{
+  display:grid;
+  grid-template-columns: 400px 400px 400px 400px;
+  justify-items: center;
+}
+.items{
+  background-color:white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px lightblue;
+}
+.item{
+  font-size: 20px;
+}
+.button{
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+}
+.subtotal{
+  display: flex;
+  justify-content: space-between;
+}
+.gift{
+  margin-left: 100px;
+  margin-right: 40px;
+  background-color: white;
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
+.status{
+  font-size: 16px;
+  padding: 15px;
+}
+.range{
+  border-style: solid;
+  border-width: 6px;
+  border-color:lightgray;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+}
+.side2{
+  background-color: rgb(230, 245, 250);
+  padding-bottom: 10px;
+  margin: 15px;
+  border-radius: 20px;
+}
+.noitems{
+  background-color: white;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 40px;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.empty{
+  font-size: 15px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  color: gray;
+}
+.additems{
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 8px;
+}
+.additem{
+  font-size: 16px;
+}
+.additem1{
+  font-size: 15px;
+  color: gray;
+}
+.sub{
+  background-color: red;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.add{
+  background-color: green;
+  color: white;
+  margin-left: 10px;
+}
+.delete{
+  background-color: red;
+  color: white;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.free{
+  background-color: lightgreen;
+  border-radius: 20px;
+}
+.range1{
+  border-style: solid;
+  border-width: 6px;
+  border-color:blue;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+}
