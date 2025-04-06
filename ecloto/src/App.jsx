@@ -4,6 +4,7 @@ import './App.css'
 
 const Ecloto=()=>{
    
+  //If you want to see the output, the deploye link is provided here   eclotos.netlify.app  
 
    const free_gift={id:99,name:"Wireless Mouse",price:0}
   
